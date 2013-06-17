@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		386C8FE516F986D40030E05B /* twitter-logo-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 386C8FE416F986D40030E05B /* twitter-logo-small.jpg */; };
+		386C8FE716F9B8B00030E05B /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 386C8FE616F9B8B00030E05B /* libxml2.dylib */; };
+		386C900616F9BA430030E05B /* CXMLDocument_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C8FEB16F9BA430030E05B /* CXMLDocument_CreationExtensions.m */; };
+		386C900716F9BA430030E05B /* CXMLNode_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C8FED16F9BA430030E05B /* CXMLNode_CreationExtensions.m */; };
+		386C900816F9BA430030E05B /* CXHTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C8FEF16F9BA430030E05B /* CXHTMLDocument.m */; };
+		386C900916F9BA430030E05B /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C8FF116F9BA430030E05B /* CXMLDocument_PrivateExtensions.m */; };
+		386C900A16F9BA430030E05B /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C8FF316F9BA430030E05B /* CXMLDocument.m */; };
+		386C900B16F9BA430030E05B /* CXMLElement_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C8FF516F9BA430030E05B /* CXMLElement_CreationExtensions.m */; };
+		386C900C16F9BA430030E05B /* CXMLElement_ElementTreeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C8FF716F9BA430030E05B /* CXMLElement_ElementTreeExtensions.m */; };
+		386C900D16F9BA430030E05B /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C8FF916F9BA430030E05B /* CXMLElement.m */; };
+		386C900E16F9BA430030E05B /* CXMLNamespaceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C8FFB16F9BA430030E05B /* CXMLNamespaceNode.m */; };
+		386C900F16F9BA430030E05B /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C8FFD16F9BA430030E05B /* CXMLNode_PrivateExtensions.m */; };
+		386C901016F9BA430030E05B /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C8FFF16F9BA430030E05B /* CXMLNode_XPathExtensions.m */; };
+		386C901116F9BA430030E05B /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C900116F9BA430030E05B /* CXMLNode.m */; };
+		386C901216F9BA430030E05B /* CTidy.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C900416F9BA430030E05B /* CTidy.m */; };
+		386C904416F9DFB80030E05B /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C903916F9DFB80030E05B /* NSObject+SBJSON.m */; };
+		386C904516F9DFB80030E05B /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C903B16F9DFB80030E05B /* NSString+SBJSON.m */; };
+		386C904616F9DFB80030E05B /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C903D16F9DFB80030E05B /* SBJSON.m */; };
+		386C904716F9DFB80030E05B /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C903F16F9DFB80030E05B /* SBJsonBase.m */; };
+		386C904816F9DFB80030E05B /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C904116F9DFB80030E05B /* SBJsonParser.m */; };
+		386C904916F9DFB80030E05B /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 386C904316F9DFB80030E05B /* SBJsonWriter.m */; };
+		389B7CD816F77B3000AAE968 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B7CD716F77B3000AAE968 /* UIKit.framework */; };
+		389B7CDA16F77B3000AAE968 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B7CD916F77B3000AAE968 /* Foundation.framework */; };
+		389B7CDC16F77B3000AAE968 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B7CDB16F77B3000AAE968 /* CoreGraphics.framework */; };
+		389B7CE216F77B3000AAE968 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 389B7CE016F77B3000AAE968 /* InfoPlist.strings */; };
+		389B7CE416F77B3000AAE968 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 389B7CE316F77B3000AAE968 /* main.m */; };
+		389B7CE816F77B3000AAE968 /* TrendSearchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 389B7CE716F77B3000AAE968 /* TrendSearchAppDelegate.m */; };
+		389B7CEB16F77B3000AAE968 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 389B7CE916F77B3000AAE968 /* MainWindow.xib */; };
+		389B7CEE16F77B3000AAE968 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 389B7CED16F77B3000AAE968 /* MainViewController.m */; };
+		389B7CF016F77B3000AAE968 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 389B7CEF16F77B3000AAE968 /* MainView.xib */; };
+		389B7CF316F77B3000AAE968 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 389B7CF216F77B3000AAE968 /* FlipsideViewController.m */; };
+		389B7CF516F77B3000AAE968 /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 389B7CF416F77B3000AAE968 /* FlipsideView.xib */; };
+		389B7CFD16F77B3000AAE968 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B7CFC16F77B3000AAE968 /* SenTestingKit.framework */; };
+		389B7CFE16F77B3000AAE968 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B7CD716F77B3000AAE968 /* UIKit.framework */; };
+		389B7CFF16F77B3000AAE968 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B7CD916F77B3000AAE968 /* Foundation.framework */; };
+		389B7D0016F77B3000AAE968 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389B7CDB16F77B3000AAE968 /* CoreGraphics.framework */; };
+		389B7D0816F77B3000AAE968 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 389B7D0616F77B3000AAE968 /* InfoPlist.strings */; };
+		389B7D0A16F77B3000AAE968 /* TrendSearchTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 389B7D0916F77B3000AAE968 /* TrendSearchTests.h */; };
+		389B7D0C16F77B3000AAE968 /* TrendSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 389B7D0B16F77B3000AAE968 /* TrendSearchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		389B7D0116F77B3000AAE968 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 389B7CCA16F77B3000AAE968 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 389B7CD216F77B3000AAE968;
+			remoteInfo = TrendSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		386C8FE416F986D40030E05B /* twitter-logo-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "twitter-logo-small.jpg"; sourceTree = "<group>"; };
+		386C8FE616F9B8B00030E05B /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		386C8FEA16F9BA430030E05B /* CXMLDocument_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_CreationExtensions.h; sourceTree = "<group>"; };
+		386C8FEB16F9BA430030E05B /* CXMLDocument_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_CreationExtensions.m; sourceTree = "<group>"; };
+		386C8FEC16F9BA430030E05B /* CXMLNode_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_CreationExtensions.h; sourceTree = "<group>"; };
+		386C8FED16F9BA430030E05B /* CXMLNode_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_CreationExtensions.m; sourceTree = "<group>"; };
+		386C8FEE16F9BA430030E05B /* CXHTMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXHTMLDocument.h; path = "TouchXML-master/Source/CXHTMLDocument.h"; sourceTree = "<group>"; };
+		386C8FEF16F9BA430030E05B /* CXHTMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXHTMLDocument.m; path = "TouchXML-master/Source/CXHTMLDocument.m"; sourceTree = "<group>"; };
+		386C8FF016F9BA430030E05B /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLDocument_PrivateExtensions.h; path = "TouchXML-master/Source/CXMLDocument_PrivateExtensions.h"; sourceTree = "<group>"; };
+		386C8FF116F9BA430030E05B /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLDocument_PrivateExtensions.m; path = "TouchXML-master/Source/CXMLDocument_PrivateExtensions.m"; sourceTree = "<group>"; };
+		386C8FF216F9BA430030E05B /* CXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLDocument.h; path = "TouchXML-master/Source/CXMLDocument.h"; sourceTree = "<group>"; };
+		386C8FF316F9BA430030E05B /* CXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLDocument.m; path = "TouchXML-master/Source/CXMLDocument.m"; sourceTree = "<group>"; };
+		386C8FF416F9BA430030E05B /* CXMLElement_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLElement_CreationExtensions.h; path = "TouchXML-master/Source/CXMLElement_CreationExtensions.h"; sourceTree = "<group>"; };
+		386C8FF516F9BA430030E05B /* CXMLElement_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLElement_CreationExtensions.m; path = "TouchXML-master/Source/CXMLElement_CreationExtensions.m"; sourceTree = "<group>"; };
+		386C8FF616F9BA430030E05B /* CXMLElement_ElementTreeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLElement_ElementTreeExtensions.h; path = "TouchXML-master/Source/CXMLElement_ElementTreeExtensions.h"; sourceTree = "<group>"; };
+		386C8FF716F9BA430030E05B /* CXMLElement_ElementTreeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLElement_ElementTreeExtensions.m; path = "TouchXML-master/Source/CXMLElement_ElementTreeExtensions.m"; sourceTree = "<group>"; };
+		386C8FF816F9BA430030E05B /* CXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLElement.h; path = "TouchXML-master/Source/CXMLElement.h"; sourceTree = "<group>"; };
+		386C8FF916F9BA430030E05B /* CXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLElement.m; path = "TouchXML-master/Source/CXMLElement.m"; sourceTree = "<group>"; };
+		386C8FFA16F9BA430030E05B /* CXMLNamespaceNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLNamespaceNode.h; path = "TouchXML-master/Source/CXMLNamespaceNode.h"; sourceTree = "<group>"; };
+		386C8FFB16F9BA430030E05B /* CXMLNamespaceNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLNamespaceNode.m; path = "TouchXML-master/Source/CXMLNamespaceNode.m"; sourceTree = "<group>"; };
+		386C8FFC16F9BA430030E05B /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLNode_PrivateExtensions.h; path = "TouchXML-master/Source/CXMLNode_PrivateExtensions.h"; sourceTree = "<group>"; };
+		386C8FFD16F9BA430030E05B /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLNode_PrivateExtensions.m; path = "TouchXML-master/Source/CXMLNode_PrivateExtensions.m"; sourceTree = "<group>"; };
+		386C8FFE16F9BA430030E05B /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLNode_XPathExtensions.h; path = "TouchXML-master/Source/CXMLNode_XPathExtensions.h"; sourceTree = "<group>"; };
+		386C8FFF16F9BA430030E05B /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLNode_XPathExtensions.m; path = "TouchXML-master/Source/CXMLNode_XPathExtensions.m"; sourceTree = "<group>"; };
+		386C900016F9BA430030E05B /* CXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CXMLNode.h; path = "TouchXML-master/Source/CXMLNode.h"; sourceTree = "<group>"; };
+		386C900116F9BA430030E05B /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLNode.m; path = "TouchXML-master/Source/CXMLNode.m"; sourceTree = "<group>"; };
+		386C900316F9BA430030E05B /* CTidy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTidy.h; sourceTree = "<group>"; };
+		386C900416F9BA430030E05B /* CTidy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTidy.m; sourceTree = "<group>"; };
+		386C900516F9BA430030E05B /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchXML.h; path = "TouchXML-master/Source/TouchXML.h"; sourceTree = "<group>"; };
+		386C903716F9DFB80030E05B /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		386C903816F9DFB80030E05B /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		386C903916F9DFB80030E05B /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		386C903A16F9DFB80030E05B /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		386C903B16F9DFB80030E05B /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		386C903C16F9DFB80030E05B /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		386C903D16F9DFB80030E05B /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		386C903E16F9DFB80030E05B /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		386C903F16F9DFB80030E05B /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		386C904016F9DFB80030E05B /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		386C904116F9DFB80030E05B /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		386C904216F9DFB80030E05B /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		386C904316F9DFB80030E05B /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		389B7CD316F77B3000AAE968 /* TrendSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrendSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		389B7CD716F77B3000AAE968 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		389B7CD916F77B3000AAE968 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		389B7CDB16F77B3000AAE968 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		389B7CDF16F77B3000AAE968 /* TrendSearch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrendSearch-Info.plist"; sourceTree = "<group>"; };
+		389B7CE116F77B3000AAE968 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		389B7CE316F77B3000AAE968 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		389B7CE516F77B3000AAE968 /* TrendSearch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrendSearch-Prefix.pch"; sourceTree = "<group>"; };
+		389B7CE616F77B3000AAE968 /* TrendSearchAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrendSearchAppDelegate.h; sourceTree = "<group>"; };
+		389B7CE716F77B3000AAE968 /* TrendSearchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrendSearchAppDelegate.m; sourceTree = "<group>"; };
+		389B7CEA16F77B3000AAE968 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		389B7CEC16F77B3000AAE968 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		389B7CED16F77B3000AAE968 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		389B7CEF16F77B3000AAE968 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		389B7CF116F77B3000AAE968 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		389B7CF216F77B3000AAE968 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		389B7CF416F77B3000AAE968 /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		389B7CFB16F77B3000AAE968 /* TrendSearchTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrendSearchTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		389B7CFC16F77B3000AAE968 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		389B7D0516F77B3000AAE968 /* TrendSearchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrendSearchTests-Info.plist"; sourceTree = "<group>"; };
+		389B7D0716F77B3000AAE968 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		389B7D0916F77B3000AAE968 /* TrendSearchTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrendSearchTests.h; sourceTree = "<group>"; };
+		389B7D0B16F77B3000AAE968 /* TrendSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrendSearchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		389B7CD016F77B3000AAE968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386C8FE716F9B8B00030E05B /* libxml2.dylib in Frameworks */,
+				389B7CD816F77B3000AAE968 /* UIKit.framework in Frameworks */,
+				389B7CDA16F77B3000AAE968 /* Foundation.framework in Frameworks */,
+				389B7CDC16F77B3000AAE968 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		389B7CF716F77B3000AAE968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389B7CFD16F77B3000AAE968 /* SenTestingKit.framework in Frameworks */,
+				389B7CFE16F77B3000AAE968 /* UIKit.framework in Frameworks */,
+				389B7CFF16F77B3000AAE968 /* Foundation.framework in Frameworks */,
+				389B7D0016F77B3000AAE968 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		386C8FE816F9B9E40030E05B /* TouchXML */ = {
+			isa = PBXGroup;
+			children = (
+				386C8FE916F9BA430030E05B /* Creation */,
+				386C8FEE16F9BA430030E05B /* CXHTMLDocument.h */,
+				386C8FEF16F9BA430030E05B /* CXHTMLDocument.m */,
+				386C8FF016F9BA430030E05B /* CXMLDocument_PrivateExtensions.h */,
+				386C8FF116F9BA430030E05B /* CXMLDocument_PrivateExtensions.m */,
+				386C8FF216F9BA430030E05B /* CXMLDocument.h */,
+				386C8FF316F9BA430030E05B /* CXMLDocument.m */,
+				386C8FF416F9BA430030E05B /* CXMLElement_CreationExtensions.h */,
+				386C8FF516F9BA430030E05B /* CXMLElement_CreationExtensions.m */,
+				386C8FF616F9BA430030E05B /* CXMLElement_ElementTreeExtensions.h */,
+				386C8FF716F9BA430030E05B /* CXMLElement_ElementTreeExtensions.m */,
+				386C8FF816F9BA430030E05B /* CXMLElement.h */,
+				386C8FF916F9BA430030E05B /* CXMLElement.m */,
+				386C8FFA16F9BA430030E05B /* CXMLNamespaceNode.h */,
+				386C8FFB16F9BA430030E05B /* CXMLNamespaceNode.m */,
+				386C8FFC16F9BA430030E05B /* CXMLNode_PrivateExtensions.h */,
+				386C8FFD16F9BA430030E05B /* CXMLNode_PrivateExtensions.m */,
+				386C8FFE16F9BA430030E05B /* CXMLNode_XPathExtensions.h */,
+				386C8FFF16F9BA430030E05B /* CXMLNode_XPathExtensions.m */,
+				386C900016F9BA430030E05B /* CXMLNode.h */,
+				386C900116F9BA430030E05B /* CXMLNode.m */,
+				386C900216F9BA430030E05B /* Tidy */,
+				386C900516F9BA430030E05B /* TouchXML.h */,
+			);
+			name = TouchXML;
+			sourceTree = "<group>";
+		};
+		386C8FE916F9BA430030E05B /* Creation */ = {
+			isa = PBXGroup;
+			children = (
+				386C8FEA16F9BA430030E05B /* CXMLDocument_CreationExtensions.h */,
+				386C8FEB16F9BA430030E05B /* CXMLDocument_CreationExtensions.m */,
+				386C8FEC16F9BA430030E05B /* CXMLNode_CreationExtensions.h */,
+				386C8FED16F9BA430030E05B /* CXMLNode_CreationExtensions.m */,
+			);
+			name = Creation;
+			path = "TouchXML-master/Source/Creation";
+			sourceTree = "<group>";
+		};
+		386C900216F9BA430030E05B /* Tidy */ = {
+			isa = PBXGroup;
+			children = (
+				386C900316F9BA430030E05B /* CTidy.h */,
+				386C900416F9BA430030E05B /* CTidy.m */,
+			);
+			name = Tidy;
+			path = "TouchXML-master/Source/Tidy";
+			sourceTree = "<group>";
+		};
+		386C903616F9DFB80030E05B /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				386C903716F9DFB80030E05B /* JSON.h */,
+				386C903816F9DFB80030E05B /* NSObject+SBJSON.h */,
+				386C903916F9DFB80030E05B /* NSObject+SBJSON.m */,
+				386C903A16F9DFB80030E05B /* NSString+SBJSON.h */,
+				386C903B16F9DFB80030E05B /* NSString+SBJSON.m */,
+				386C903C16F9DFB80030E05B /* SBJSON.h */,
+				386C903D16F9DFB80030E05B /* SBJSON.m */,
+				386C903E16F9DFB80030E05B /* SBJsonBase.h */,
+				386C903F16F9DFB80030E05B /* SBJsonBase.m */,
+				386C904016F9DFB80030E05B /* SBJsonParser.h */,
+				386C904116F9DFB80030E05B /* SBJsonParser.m */,
+				386C904216F9DFB80030E05B /* SBJsonWriter.h */,
+				386C904316F9DFB80030E05B /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			path = "Twitter Search/Classes/JSON";
+			sourceTree = "<group>";
+		};
+		389B7CC816F77B3000AAE968 = {
+			isa = PBXGroup;
+			children = (
+				386C903616F9DFB80030E05B /* JSON */,
+				386C8FE816F9B9E40030E05B /* TouchXML */,
+				386C8FE616F9B8B00030E05B /* libxml2.dylib */,
+				389B7CDD16F77B3000AAE968 /* TrendSearch */,
+				389B7D0316F77B3000AAE968 /* TrendSearchTests */,
+				389B7CD616F77B3000AAE968 /* Frameworks */,
+				389B7CD416F77B3000AAE968 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		389B7CD416F77B3000AAE968 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				389B7CD316F77B3000AAE968 /* TrendSearch.app */,
+				389B7CFB16F77B3000AAE968 /* TrendSearchTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		389B7CD616F77B3000AAE968 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				389B7CD716F77B3000AAE968 /* UIKit.framework */,
+				389B7CD916F77B3000AAE968 /* Foundation.framework */,
+				389B7CDB16F77B3000AAE968 /* CoreGraphics.framework */,
+				389B7CFC16F77B3000AAE968 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		389B7CDD16F77B3000AAE968 /* TrendSearch */ = {
+			isa = PBXGroup;
+			children = (
+				389B7CE616F77B3000AAE968 /* TrendSearchAppDelegate.h */,
+				389B7CE716F77B3000AAE968 /* TrendSearchAppDelegate.m */,
+				386C8FE416F986D40030E05B /* twitter-logo-small.jpg */,
+				389B7CE916F77B3000AAE968 /* MainWindow.xib */,
+				389B7CEC16F77B3000AAE968 /* MainViewController.h */,
+				389B7CED16F77B3000AAE968 /* MainViewController.m */,
+				389B7CEF16F77B3000AAE968 /* MainView.xib */,
+				389B7CF116F77B3000AAE968 /* FlipsideViewController.h */,
+				389B7CF216F77B3000AAE968 /* FlipsideViewController.m */,
+				389B7CF416F77B3000AAE968 /* FlipsideView.xib */,
+				389B7CDE16F77B3000AAE968 /* Supporting Files */,
+			);
+			path = TrendSearch;
+			sourceTree = "<group>";
+		};
+		389B7CDE16F77B3000AAE968 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				389B7CDF16F77B3000AAE968 /* TrendSearch-Info.plist */,
+				389B7CE016F77B3000AAE968 /* InfoPlist.strings */,
+				389B7CE316F77B3000AAE968 /* main.m */,
+				389B7CE516F77B3000AAE968 /* TrendSearch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		389B7D0316F77B3000AAE968 /* TrendSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				389B7D0916F77B3000AAE968 /* TrendSearchTests.h */,
+				389B7D0B16F77B3000AAE968 /* TrendSearchTests.m */,
+				389B7D0416F77B3000AAE968 /* Supporting Files */,
+			);
+			path = TrendSearchTests;
+			sourceTree = "<group>";
+		};
+		389B7D0416F77B3000AAE968 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				389B7D0516F77B3000AAE968 /* TrendSearchTests-Info.plist */,
+				389B7D0616F77B3000AAE968 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		389B7CD216F77B3000AAE968 /* TrendSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 389B7D0F16F77B3000AAE968 /* Build configuration list for PBXNativeTarget "TrendSearch" */;
+			buildPhases = (
+				389B7CCF16F77B3000AAE968 /* Sources */,
+				389B7CD016F77B3000AAE968 /* Frameworks */,
+				389B7CD116F77B3000AAE968 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrendSearch;
+			productName = TrendSearch;
+			productReference = 389B7CD316F77B3000AAE968 /* TrendSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		389B7CFA16F77B3000AAE968 /* TrendSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 389B7D1216F77B3000AAE968 /* Build configuration list for PBXNativeTarget "TrendSearchTests" */;
+			buildPhases = (
+				389B7CF616F77B3000AAE968 /* Sources */,
+				389B7CF716F77B3000AAE968 /* Frameworks */,
+				389B7CF816F77B3000AAE968 /* Resources */,
+				389B7CF916F77B3000AAE968 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				389B7D0216F77B3000AAE968 /* PBXTargetDependency */,
+			);
+			name = TrendSearchTests;
+			productName = TrendSearchTests;
+			productReference = 389B7CFB16F77B3000AAE968 /* TrendSearchTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		389B7CCA16F77B3000AAE968 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 389B7CCD16F77B3000AAE968 /* Build configuration list for PBXProject "TrendSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 389B7CC816F77B3000AAE968;
+			productRefGroup = 389B7CD416F77B3000AAE968 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				389B7CD216F77B3000AAE968 /* TrendSearch */,
+				389B7CFA16F77B3000AAE968 /* TrendSearchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		389B7CD116F77B3000AAE968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389B7CE216F77B3000AAE968 /* InfoPlist.strings in Resources */,
+				389B7CEB16F77B3000AAE968 /* MainWindow.xib in Resources */,
+				389B7CF016F77B3000AAE968 /* MainView.xib in Resources */,
+				389B7CF516F77B3000AAE968 /* FlipsideView.xib in Resources */,
+				386C8FE516F986D40030E05B /* twitter-logo-small.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		389B7CF816F77B3000AAE968 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389B7D0816F77B3000AAE968 /* InfoPlist.strings in Resources */,
+				389B7D0A16F77B3000AAE968 /* TrendSearchTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		389B7CF916F77B3000AAE968 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		389B7CCF16F77B3000AAE968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389B7CE416F77B3000AAE968 /* main.m in Sources */,
+				389B7CE816F77B3000AAE968 /* TrendSearchAppDelegate.m in Sources */,
+				389B7CEE16F77B3000AAE968 /* MainViewController.m in Sources */,
+				389B7CF316F77B3000AAE968 /* FlipsideViewController.m in Sources */,
+				386C900616F9BA430030E05B /* CXMLDocument_CreationExtensions.m in Sources */,
+				386C900716F9BA430030E05B /* CXMLNode_CreationExtensions.m in Sources */,
+				386C900816F9BA430030E05B /* CXHTMLDocument.m in Sources */,
+				386C900916F9BA430030E05B /* CXMLDocument_PrivateExtensions.m in Sources */,
+				386C900A16F9BA430030E05B /* CXMLDocument.m in Sources */,
+				386C900B16F9BA430030E05B /* CXMLElement_CreationExtensions.m in Sources */,
+				386C900C16F9BA430030E05B /* CXMLElement_ElementTreeExtensions.m in Sources */,
+				386C900D16F9BA430030E05B /* CXMLElement.m in Sources */,
+				386C900E16F9BA430030E05B /* CXMLNamespaceNode.m in Sources */,
+				386C900F16F9BA430030E05B /* CXMLNode_PrivateExtensions.m in Sources */,
+				386C901016F9BA430030E05B /* CXMLNode_XPathExtensions.m in Sources */,
+				386C901116F9BA430030E05B /* CXMLNode.m in Sources */,
+				386C901216F9BA430030E05B /* CTidy.m in Sources */,
+				386C904416F9DFB80030E05B /* NSObject+SBJSON.m in Sources */,
+				386C904516F9DFB80030E05B /* NSString+SBJSON.m in Sources */,
+				386C904616F9DFB80030E05B /* SBJSON.m in Sources */,
+				386C904716F9DFB80030E05B /* SBJsonBase.m in Sources */,
+				386C904816F9DFB80030E05B /* SBJsonParser.m in Sources */,
+				386C904916F9DFB80030E05B /* SBJsonWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		389B7CF616F77B3000AAE968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389B7D0C16F77B3000AAE968 /* TrendSearchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		389B7D0216F77B3000AAE968 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 389B7CD216F77B3000AAE968 /* TrendSearch */;
+			targetProxy = 389B7D0116F77B3000AAE968 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		389B7CE016F77B3000AAE968 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				389B7CE116F77B3000AAE968 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		389B7CE916F77B3000AAE968 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				389B7CEA16F77B3000AAE968 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		389B7D0616F77B3000AAE968 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				389B7D0716F77B3000AAE968 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		389B7D0D16F77B3000AAE968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = /usr/include/libxml2;
+			};
+			name = Debug;
+		};
+		389B7D0E16F77B3000AAE968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = /usr/include/libxml2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		389B7D1016F77B3000AAE968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrendSearch/TrendSearch-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = "${SDKROOT}/usr/include/libxml2";
+				INFOPLIST_FILE = "TrendSearch/TrendSearch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		389B7D1116F77B3000AAE968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrendSearch/TrendSearch-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = "${SDKROOT}/usr/include/libxml2";
+				INFOPLIST_FILE = "TrendSearch/TrendSearch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		389B7D1316F77B3000AAE968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TrendSearch.app/TrendSearch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrendSearch/TrendSearch-Prefix.pch";
+				INFOPLIST_FILE = "TrendSearchTests/TrendSearchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		389B7D1416F77B3000AAE968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TrendSearch.app/TrendSearch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrendSearch/TrendSearch-Prefix.pch";
+				INFOPLIST_FILE = "TrendSearchTests/TrendSearchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		389B7CCD16F77B3000AAE968 /* Build configuration list for PBXProject "TrendSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				389B7D0D16F77B3000AAE968 /* Debug */,
+				389B7D0E16F77B3000AAE968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		389B7D0F16F77B3000AAE968 /* Build configuration list for PBXNativeTarget "TrendSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				389B7D1016F77B3000AAE968 /* Debug */,
+				389B7D1116F77B3000AAE968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		389B7D1216F77B3000AAE968 /* Build configuration list for PBXNativeTarget "TrendSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				389B7D1316F77B3000AAE968 /* Debug */,
+				389B7D1416F77B3000AAE968 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 389B7CCA16F77B3000AAE968 /* Project object */;
+}

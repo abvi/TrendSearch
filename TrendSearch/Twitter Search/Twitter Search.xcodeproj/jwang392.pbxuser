@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* Twitter_SearchAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {923, 604}}";
+			sepNavSelRange = "{614, 0}";
+			sepNavVisRange = "{0, 621}";
+		};
+	};
+	1D3623250D0F684500981E51 /* Twitter_SearchAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {933, 1027}}";
+			sepNavSelRange = "{1688, 0}";
+			sepNavVisRange = "{1232, 644}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Twitter Search */ = {
+		activeExec = 0;
+		executables = (
+			7093266B11C098310094860B /* Twitter Search */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 7093266B11C098310094860B /* Twitter Search */;
+		activeSDKPreference = iphonesimulator4.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Twitter Search */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Twitter Search */,
+		);
+		codeSenseManager = 7093267B11C0983D0094860B /* Code sense */;
+		executables = (
+			7093266B11C098310094860B /* Twitter Search */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					633,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					745,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					705,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 297835630;
+			PBXWorkspaceStateSaveDate = 297835630;
+		};
+		perUserProjectItems = {
+			7093274811C09D5D0094860B /* PBXTextBookmark */ = 7093274811C09D5D0094860B /* PBXTextBookmark */;
+			709327D311C0BB9D0094860B /* PBXTextBookmark */ = 709327D311C0BB9D0094860B /* PBXTextBookmark */;
+			7093284E11C0C3750094860B /* PBXTextBookmark */ = 7093284E11C0C3750094860B /* PBXTextBookmark */;
+			709329CC11C0D1EB0094860B /* PBXTextBookmark */ = 709329CC11C0D1EB0094860B /* PBXTextBookmark */;
+			709329CD11C0D1EB0094860B /* PBXTextBookmark */ = 709329CD11C0D1EB0094860B /* PBXTextBookmark */;
+			709329CE11C0D1EB0094860B /* PBXTextBookmark */ = 709329CE11C0D1EB0094860B /* PBXTextBookmark */;
+			709329D611C0D2420094860B /* PBXTextBookmark */ = 709329D611C0D2420094860B /* PBXTextBookmark */;
+			709329D711C0D2420094860B /* PBXTextBookmark */ = 709329D711C0D2420094860B /* PBXTextBookmark */;
+			709329D811C0D2420094860B /* PBXTextBookmark */ = 709329D811C0D2420094860B /* PBXTextBookmark */;
+			709329D911C0D2420094860B /* PlistBookmark */ = 709329D911C0D2420094860B /* PlistBookmark */;
+			709329DA11C0D2420094860B /* PlistBookmark */ = 709329DA11C0D2420094860B /* PlistBookmark */;
+		};
+		sourceControlManager = 7093267A11C0983D0094860B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {923, 604}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 359}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* Twitter_Search_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {923, 604}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 197}";
+		};
+	};
+	7093266B11C098310094860B /* Twitter Search */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Twitter Search";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	7093267A11C0983D0094860B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	7093267B11C0983D0094860B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	709326AD11C09A3F0094860B /* UIView.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIView.h;
+		path = "/var/folders/ys/ysX5+gB-H2Gy1Vm21ch4B++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator4.0-ekgfijomphwmxmczekbnzhoyefcm/System/Library/Frameworks/UIKit.framework/Headers/UIView.h";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1790, 3718}}";
+			sepNavSelRange = "{107, 0}";
+			sepNavVisRange = "{0, 1620}";
+		};
+	};
+	7093274811C09D5D0094860B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 709326AD11C09A3F0094860B /* UIView.h */;
+		name = "UIView.h: 8";
+		rLen = 0;
+		rLoc = 107;
+		rType = 0;
+		vrLen = 1620;
+		vrLoc = 0;
+	};
+	709327A611C0B8970094860B /* Tweet.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {923, 604}}";
+			sepNavSelRange = "{299, 0}";
+			sepNavVisRange = "{0, 504}";
+		};
+	};
+	709327A711C0B8970094860B /* Tweet.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {777, 416}}";
+			sepNavSelRange = "{457, 0}";
+			sepNavVisRange = "{0, 457}";
+		};
+	};
+	709327D311C0BB9D0094860B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 709327A711C0B8970094860B /* Tweet.m */;
+		name = "Tweet.m: 18";
+		rLen = 0;
+		rLoc = 342;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 0;
+	};
+	7093284E11C0C3750094860B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 709327A611C0B8970094860B /* Tweet.h */;
+		name = "Tweet.h: 18";
+		rLen = 0;
+		rLoc = 299;
+		rType = 0;
+		vrLen = 504;
+		vrLoc = 0;
+	};
+	7093289A11C0C6E80094860B /* Twitter_SearchViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {923, 604}}";
+			sepNavSelRange = "{154, 164}";
+			sepNavVisRange = "{0, 319}";
+		};
+	};
+	7093289B11C0C6E80094860B /* Twitter_SearchViewController.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{2247, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{2298, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{2348, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 2903}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {915, 1196}}";
+			sepNavSelRange = "{1550, 0}";
+			sepNavVisRange = "{1835, 858}";
+		};
+	};
+	709329CC11C0D1EB0094860B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7093289A11C0C6E80094860B /* Twitter_SearchViewController.h */;
+		name = "Twitter_SearchViewController.h: 9";
+		rLen = 164;
+		rLoc = 154;
+		rType = 0;
+		vrLen = 319;
+		vrLoc = 0;
+	};
+	709329CD11C0D1EB0094860B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7093289B11C0C6E80094860B /* Twitter_SearchViewController.m */;
+		name = "Twitter_SearchViewController.m: 43";
+		rLen = 1180;
+		rLoc = 837;
+		rType = 0;
+		vrLen = 1603;
+		vrLoc = 642;
+	};
+	709329CE11C0D1EB0094860B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* Twitter_SearchAppDelegate.h */;
+		name = "Twitter_SearchAppDelegate.h: 23";
+		rLen = 0;
+		rLoc = 614;
+		rType = 0;
+		vrLen = 621;
+		vrLoc = 0;
+	};
+	709329D611C0D2420094860B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Twitter_SearchAppDelegate.m */;
+		name = "Twitter_SearchAppDelegate.m: 72";
+		rLen = 0;
+		rLoc = 2018;
+		rType = 0;
+		vrLen = 1353;
+		vrLoc = 0;
+	};
+	709329D711C0D2420094860B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Twitter_Search_Prefix.pch */;
+		name = "Twitter_Search_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 197;
+		vrLoc = 0;
+	};
+	709329D811C0D2420094860B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 359;
+		vrLoc = 0;
+	};
+	709329D911C0D2420094860B /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Twitter_Search-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/jwang392/Dropbox/FreshBlocks/Projects/MobileTuts/Twitter Search/Twitter_Search-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	709329DA11C0D2420094860B /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Twitter_Search-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleSignature,
+		);
+		name = "/Users/jwang392/Dropbox/FreshBlocks/Projects/MobileTuts/Twitter Search/Twitter_Search-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+}
